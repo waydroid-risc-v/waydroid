@@ -12,6 +12,7 @@ def host():
         "aarch64": "arm64",
         "armv7l": "arm",
         "armv8l": "arm"
+        "riscv64": "riscv64"
     }
     if machine in mapping:
         return maybe_remap(mapping[machine])
